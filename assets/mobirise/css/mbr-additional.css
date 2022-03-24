@@ -688,6 +688,16 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-t10BmHAPFE {
+  background-image: url("../../../assets/images/original-1.gif");
+}
+.cid-t10BmHAPFE .mbr-text,
+.cid-t10BmHAPFE .mbr-section-btn {
+  text-align: left;
+}
+.cid-t10BmHAPFE .mbr-section-title {
+  text-align: left;
+}
 .cid-sPqiXttdDu {
   z-index: 1000;
   width: 100%;
@@ -756,7 +766,7 @@ a {
 }
 .cid-sPqiXttdDu .dropdown-menu,
 .cid-sPqiXttdDu .navbar.opened {
-  background: #edd7e2 !important;
+  background: #232323 !important;
 }
 .cid-sPqiXttdDu .nav-item:focus,
 .cid-sPqiXttdDu .nav-link:focus {
@@ -790,7 +800,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(237, 215, 226, 0.5);
+  background: rgba(35, 35, 35, 0.5);
 }
 .cid-sPqiXttdDu .navbar.opened {
   transition: all 0.3s;
@@ -813,6 +823,11 @@ a {
 }
 .cid-sPqiXttdDu .navbar.collapsed.opened .dropdown-menu {
   top: 0;
+}
+@media (min-width: 992px) {
+  .cid-sPqiXttdDu .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3rem);
+  }
 }
 .cid-sPqiXttdDu .navbar.collapsed .dropdown-menu .dropdown-submenu {
   left: 0 !important;
@@ -930,7 +945,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-sPqiXttdDu .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #edd7e2;
+  background: #232323;
 }
 .cid-sPqiXttdDu .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1032,17 +1047,10 @@ a {
     left: -1rem;
   }
 }
-.cid-sPqjuRvX2p {
-  background-image: url("../../../assets/images/kamehouse-gif.gif");
-}
-.cid-sPqjuRvX2p .mbr-text,
-.cid-sPqjuRvX2p .mbr-section-btn {
-  text-align: left;
-}
 .cid-sPqjfv4dR6 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/capture4.png");
+  background-image: url("../../../assets/images/signal-2021-11-27.jpeg");
 }
 .cid-sPqjfv4dR6 .mbr-overlay {
   background: #fafafa;
@@ -1101,7 +1109,7 @@ a {
 .cid-sQ0GyZNWVZ {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #edd7e2;
+  background-color: #98dee8;
 }
 .cid-sQ0GyZNWVZ img,
 .cid-sQ0GyZNWVZ .item-img {
@@ -1165,10 +1173,33 @@ a {
     width: 80%;
   }
 }
+.cid-t10ltu1xqp {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-t10ltu1xqp ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+.cid-t10ltu1xqp li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cid-t10ltu1xqp ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #6592e6;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+}
 .cid-sPqjhtFXtb {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/capture5.png");
+  background-image: url("../../../assets/images/kamehouse.png");
 }
 .cid-sPqjhtFXtb .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
