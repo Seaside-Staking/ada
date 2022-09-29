@@ -1,9 +1,0 @@
-Seaside Staking will continue distributing PIGY through the DripDropz project on Cardano. More details coming Januray 2022...
-
-- PIGY is a Cardano based token created for stake pools to distribute. The supply of PIGY Token is locked and limited to only 100,000,000,000 tokens. 
-
-- PIGY is the only currency that pays for the PIGY Oracle. 
-
-- Can be traded on different Cardano DEX exchanges 
-
-- more information can be found on the official PIGY website
